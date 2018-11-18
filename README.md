@@ -1,2 +1,2 @@
 # Structured-Deep-Learning
-SDL
+Structured Deep Learning is used for data with structure information.
