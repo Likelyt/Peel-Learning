@@ -1,4 +1,4 @@
-# Effective Peel Learning for Small Data with Structured Features
+# Peel Learning for Pathway-Related OutcomePrediction
 
 Python implementation of Effective Peel Learning for Small Data with Structured Features.
 
