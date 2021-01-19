@@ -1,6 +1,6 @@
 # Peel Learning for Pathway-Related OutcomePrediction
 
-Python implementation of Effective Peel Learning for Small Data with Structured Features.
+Python implementation of Peel Learning for Pathway-Related OutcomePrediction.
 
 ## Installation
 
