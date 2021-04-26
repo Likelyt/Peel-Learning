@@ -11,6 +11,7 @@ import argparse
 from sklearn import linear_model
 from module_time import time_since
 
+# http://neuralnetworksanddeeplearning.com/chap2.html
 
 class Network_SDL(object):
     def __init__(self, sizes, adj_matrix, parent_child, child_parent, residual_set):
