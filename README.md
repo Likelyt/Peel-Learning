@@ -40,7 +40,7 @@ python PL_train.py example_xy.txt example_adjacency.txt
 Seen in the main.py.
 
 ## Reference
-Yuantong Li, Wang Fei, Edward III Cantu, Mengying Yang, Rui Feng. (2021) Peel Learning for Pathway-Related Outcome Prediction. Manuscript.
+Yuantong Li, Wang Fei, Mengying Yang, Edward III Cantu, Fan Nil Yang, Rui Feng. (2021) Peel Learning for Pathway-Related Outcome Prediction. Manuscript.
 
 
 
