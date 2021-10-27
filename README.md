@@ -33,7 +33,7 @@ Assuming n is the sample size and p is the number of predictors, the program tak
 ## Run PL
 
 ```python
-python PL_train.py example_xy.txt example_adjacency.txt
+python PL_train.py example_x.txt example_y.txt example_adjacency.txt
 ```
 
 ## Hyperparameters Options
