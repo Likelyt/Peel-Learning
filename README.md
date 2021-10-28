@@ -40,7 +40,7 @@ python PL_train.py example_x.txt example_y.txt example_adjacency.txt
 Seen in the main.py.
 
 ## Reference
-We have a paper you can cite:
+We have a [paper](https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btab402/6286960) you can cite:
 ```
 @article{li2021peel,
   title={Peel Learning for Pathway-Related Outcome Prediction},
