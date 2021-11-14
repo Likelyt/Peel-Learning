@@ -24,20 +24,22 @@ python setup.py install
 
 Assuming n is the sample size and p is the number of predictors, the program takes 2 required input files:
 
-•	A tab-delimited text file containing predictors and outcome (example_xy.txt): A data matrix with n rows and p+1 columns, outcome Y (either binary or continuous) as the 1st column, and predictors X in the remaining p columns. 
+•	A tab-delimited text file containing predictors X (example_x.txt): A data matrix with p rows and n columns, 
+
+• A tab-delimited text file containing outcomes Y (example_y.txt) (either binary or continuous): A data vector with n rows.
 
 •	A tab-delimited text file containing a directed feature connection matrix (example_adjacency.txt): An adjacency matrix of the features’ directed connections with p rows and p columns. 
 
-•	Both files do not need headers and row names.
+•	All files do not need headers and row names.
 
 ## Run PL
 
 ```python
-python PL_train.py example_x.txt example_y.txt example_adjacency.txt
+python main_real.py -task real-data -data_x_path x_path -data_y_path y_path -adj_matrix_path adj_path -iteration 100 -lr 1 -layers 5
 ```
 
 ## Hyperparameters Options
-Seen in the main.py.
+Seen in the main_real.py.
 
 ## Reference
 We have a [paper](https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btab402/6286960) you can cite:
