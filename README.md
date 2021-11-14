@@ -72,6 +72,12 @@ sys_path = 'xxx'
 os.chdir(sys_path)
 sys.path.append(sys_path)
 
+### Provide you data path
+x_path = 'x_path'
+y_path = 'y_path'
+adj_path = 'adj_path'
+
+### For example
 ```python
 python main_real.py -task real-data -data_x_path x_path -data_y_path y_path -adj_matrix_path adj_path -iteration 100 -lr 1 -layers 5
 ```
