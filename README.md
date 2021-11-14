@@ -91,11 +91,11 @@ os.chdir(sys_path)
 sys.path.append(sys_path)
 
 ### Provide you data path
-x_path = 'x_path'
+x_path = 'x_path', eg:'data/brca/x_brca.txt'
 
-y_path = 'y_path'
+y_path = 'y_path', eg:'data/brca/y_brca.txt'
 
-adj_path = 'adj_path'
+adj_path = 'adj_path', eg:'data/brca/adj_brca.txt'
 
 ### For example
 ```python
