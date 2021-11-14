@@ -44,37 +44,57 @@ The default parameters and hyperparameter are set as below:
 
 ### Optimizer setup
 •	optimizer='SGD'
+
 •	beta_1=0.9
+
 •	beta_2=0.999 
+
 • decay_rate=0.975
+
 • momentum=0.9
+
 • end_epoch=1
+
 • eps=1e-08
+
 • iteration=200
+
 • np_random_seed=12345
+
 • lr=1.0
 
 ### PL algorithm setup
 •	coefficient_share='True'
+
 •	format_type='residual'
+
 •	layers=5
 
 ### Objective function setup
 • objective='classification'
+
 •	criteria='C_E'
+
 •	eval_metric='cross_entropy'
+
 •	balance_data='balance'
+
 •	balance_weight=0.25
 
 ## Run PL
 Before you run the code, pls change line 14 and 15 to your own directory.
+
 sys_path = 'xxx'
+
 os.chdir(sys_path)
+
 sys.path.append(sys_path)
 
 ### Provide you data path
 x_path = 'x_path'
+
 y_path = 'y_path'
+
 adj_path = 'adj_path'
 
 ### For example
@@ -83,7 +103,7 @@ python main_real.py -task real-data -data_x_path x_path -data_y_path y_path -adj
 ```
 
 ## Reference
-We have a [paper](https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btab402/6286960) you can cite:
+Pls consider cite our [paper](https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btab402/6286960):
 ```
 @article{li2021peel,
   title={Peel Learning for Pathway-Related Outcome Prediction},
